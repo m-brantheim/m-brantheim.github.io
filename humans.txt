@@ -1,0 +1,10 @@
+/* TEAM */
+Author: Magnus Brantheim.
+Contact: m.brantheim@gmail.com.
+GitHub: m-brantheim.
+Location: Östersund, Sweden.
+
+/* SITE */
+Standards: HTML5, CSS3
+Components:
+Software: WebStorm, Vagrant, Git
