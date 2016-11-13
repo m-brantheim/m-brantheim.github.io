@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi there! I'm Magnus. This is my simple jekyll website. It is a kind of experiment in the world of static site generators.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I like to program and I am currently a computer science student and also an entrepreneur. I mainly have experience with
+Java and C#, lately I have been learning JavaScript which has been a refreshing change. I like the prototypal inheritance
+model in JavaScript and it's long history of functional programming.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+To learn more about functional programming I am also studying Haskell which has been quite a challenge for me so far as
+I am quite used to imperative programming in object-oriented languages.
