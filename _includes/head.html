@@ -14,4 +14,17 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://m-brantheim.github.io{{ page.url }}" />
     <meta property="og:image" content="https://m-brantheim.github.io/geometriclogo.jpg" />
+
+    <!--Copied code from http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/-->
+    {% if page.categories %}
+    {% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section">
+    {% endfor %}
+    {% endif %}
+    {% if page.tags %}
+    {% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag">
+    {% endfor %}
+    {% endif %}
+    <!-- End of copied code -->
 </head>
