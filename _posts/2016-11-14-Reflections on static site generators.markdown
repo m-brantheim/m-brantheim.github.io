@@ -30,17 +30,25 @@ Extend may be used as a kind of inheritence to allow a class to inherit properti
 
 I made use of variables for commonly defined values so they only need to be written once.
 
-Pros and cons?
+-Pros and cons?
+
+Using variables means you can define values one time in one place, rather then repeating yourself in many places in the
+code. This makes it easier to experiment and to change the values. Like for example if you want to change a commonly
+used color you can just make one change instead of finding every use of it.
+The downside of this is that you must learn some additional syntax and how variables work. Anyone with some programming
+experience should know about variables and the syntax is probably similar to most other languages so I would say that
+is not such a big deal.
 
 -What do you think of static site generators?
 
-They can be useful for quickly making content-focused sites with static content... like blogs! It was a little bit tricky
-to get started at first since I had not used something similar before. But I have done some PHP coding where I would make
-use of a lot of partial sites which I would include into bigger pages. However for these PHP websites that I made I would
-make use of an SQL database to store posts for example. Overall I would say that was more complicated then using a static
-site generator since using a database you must write some code to perform CRUD operations (create, read, update, delete).
-The database can also be an attack vector for potential hackers so it requires additional security concerns like escaping
-strings that could carry SQL injections. So in that sense static site generators are simple.
+They can be useful for quickly making content-focused sites with static content... like blogs! It was a little bit
+tricky to get started at first since I had not used something similar before. But I have done some PHP coding where I
+would make use of a lot of partial sites which I would include into bigger pages. However for these PHP websites that I
+made I would make use of an SQL database to store posts for example. Overall I would say that was more complicated then
+using a static site generator since using a database you must write some code to query the database and perform CRUD
+operations (create, read, update, delete).The database can also be an attack vector for potential hackers so it requires
+additional security concerns like escaping strings that could carry SQL injections. So in that sense static site
+generators are simple.
 
 -What type of projects are they suitable for?
 
